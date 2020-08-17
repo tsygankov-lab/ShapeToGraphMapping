@@ -1,6 +1,6 @@
 ShapeToGraphMapping code for publication -
 
-This repository contains both the code for Voronoi graph construction and feature extraction, and code for boundary clustering as presented in the paper.
+This repository contains both the code for Voronoi graph construction and feature extraction, and code for boundary clustering as described in the paper.
 
 \----------------------------------------------------------------
 1) EDGE EXTRACTION 
