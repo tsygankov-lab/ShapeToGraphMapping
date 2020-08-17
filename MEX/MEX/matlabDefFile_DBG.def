@@ -1,0 +1,2 @@
+LIBRARY VoronoiMEX_DBG.mexw64
+EXPORTS mexFunction

@@ -1,0 +1,2 @@
+LIBRARY BFS_mex.mexw64
+EXPORTS mexFunction

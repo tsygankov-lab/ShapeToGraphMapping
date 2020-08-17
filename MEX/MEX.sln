@@ -1,0 +1,144 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Voronoi", "MEX\MEX.vcxproj", "{BC89A51B-AEDE-49B8-9147-83311F0A55CE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VoronoiProc", "VoronoiProc\VoronoiProc.vcxproj", "{C5720CFC-01D6-43A0-A395-7AEE007589B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		MATLAB Debug PAR|ARM = MATLAB Debug PAR|ARM
+		MATLAB Debug PAR|x64 = MATLAB Debug PAR|x64
+		MATLAB Debug PAR|x86 = MATLAB Debug PAR|x86
+		MATLAB Debug|ARM = MATLAB Debug|ARM
+		MATLAB Debug|x64 = MATLAB Debug|x64
+		MATLAB Debug|x86 = MATLAB Debug|x86
+		MATLAB Rel Par|ARM = MATLAB Rel Par|ARM
+		MATLAB Rel Par|x64 = MATLAB Rel Par|x64
+		MATLAB Rel Par|x86 = MATLAB Rel Par|x86
+		MATLAB Release|ARM = MATLAB Release|ARM
+		MATLAB Release|x64 = MATLAB Release|x64
+		MATLAB Release|x86 = MATLAB Release|x86
+		MATLAB Toroidal Debug|ARM = MATLAB Toroidal Debug|ARM
+		MATLAB Toroidal Debug|x64 = MATLAB Toroidal Debug|x64
+		MATLAB Toroidal Debug|x86 = MATLAB Toroidal Debug|x86
+		MATLAB Toroidal Release|ARM = MATLAB Toroidal Release|ARM
+		MATLAB Toroidal Release|x64 = MATLAB Toroidal Release|x64
+		MATLAB Toroidal Release|x86 = MATLAB Toroidal Release|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.Debug|ARM.ActiveCfg = Debug|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.Debug|x64.ActiveCfg = Debug|x64
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.Debug|x64.Build.0 = Debug|x64
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.Debug|x86.ActiveCfg = Debug|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.Debug|x86.Build.0 = Debug|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Debug PAR|ARM.ActiveCfg = MATLAB Debug PAR|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Debug PAR|x64.ActiveCfg = MATLAB Debug PAR|x64
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Debug PAR|x64.Build.0 = MATLAB Debug PAR|x64
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Debug PAR|x86.ActiveCfg = MATLAB Debug PAR|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Debug PAR|x86.Build.0 = MATLAB Debug PAR|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Debug|ARM.ActiveCfg = Matlab Debug|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Debug|x64.ActiveCfg = Matlab Debug|x64
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Debug|x64.Build.0 = Matlab Debug|x64
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Debug|x86.ActiveCfg = Debug|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Debug|x86.Build.0 = Debug|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Rel Par|ARM.ActiveCfg = MATLAB Rel Par|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Rel Par|x64.ActiveCfg = MATLAB Rel Par|x64
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Rel Par|x64.Build.0 = MATLAB Rel Par|x64
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Rel Par|x86.ActiveCfg = MATLAB Rel Par|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Rel Par|x86.Build.0 = MATLAB Rel Par|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Release|ARM.ActiveCfg = MATLAB Release|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Release|x64.ActiveCfg = MATLAB Release|x64
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Release|x64.Build.0 = MATLAB Release|x64
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Release|x86.ActiveCfg = MATLAB Release|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Release|x86.Build.0 = MATLAB Release|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Toroidal Debug|ARM.ActiveCfg = MATLAB Toroidal Debug|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Toroidal Debug|x64.ActiveCfg = MATLAB Toroidal Debug|x64
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Toroidal Debug|x64.Build.0 = MATLAB Toroidal Debug|x64
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Toroidal Debug|x86.ActiveCfg = MATLAB Toroidal Debug|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Toroidal Debug|x86.Build.0 = MATLAB Toroidal Debug|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Toroidal Release|ARM.ActiveCfg = MATLAB Toroidal Release|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Toroidal Release|x64.ActiveCfg = MATLAB Toroidal Release|x64
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Toroidal Release|x64.Build.0 = MATLAB Toroidal Release|x64
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Toroidal Release|x86.ActiveCfg = MATLAB Toroidal Release|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.MATLAB Toroidal Release|x86.Build.0 = MATLAB Toroidal Release|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.Release|ARM.ActiveCfg = Release|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.Release|x64.ActiveCfg = Release|x64
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.Release|x64.Build.0 = Release|x64
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.Release|x86.ActiveCfg = Release|Win32
+		{BC89A51B-AEDE-49B8-9147-83311F0A55CE}.Release|x86.Build.0 = Release|Win32
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.Debug|ARM.ActiveCfg = Debug|Win32
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.Debug|x64.ActiveCfg = Debug|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.Debug|x64.Build.0 = Debug|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.Debug|x86.Build.0 = Debug|Win32
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Debug PAR|ARM.ActiveCfg = Release|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Debug PAR|ARM.Build.0 = Release|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Debug PAR|x64.ActiveCfg = Debug|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Debug PAR|x64.Build.0 = Debug|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Debug PAR|x86.ActiveCfg = Debug|Win32
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Debug PAR|x86.Build.0 = Debug|Win32
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Debug|ARM.ActiveCfg = Release|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Debug|ARM.Build.0 = Release|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Debug|x64.ActiveCfg = Debug|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Debug|x64.Build.0 = Debug|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Debug|x86.ActiveCfg = Debug|Win32
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Debug|x86.Build.0 = Debug|Win32
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Rel Par|ARM.ActiveCfg = Release|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Rel Par|ARM.Build.0 = Release|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Rel Par|x64.ActiveCfg = Release|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Rel Par|x64.Build.0 = Release|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Rel Par|x86.ActiveCfg = Release|Win32
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Rel Par|x86.Build.0 = Release|Win32
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Release|ARM.ActiveCfg = Release|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Release|ARM.Build.0 = Release|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Release|x64.ActiveCfg = Release|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Release|x64.Build.0 = Release|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Release|x86.ActiveCfg = Release|Win32
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Release|x86.Build.0 = Release|Win32
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Toroidal Debug|ARM.ActiveCfg = MATLAB Toroidal Debug|Win32
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Toroidal Debug|x64.ActiveCfg = MATLAB Toroidal Debug|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Toroidal Debug|x64.Build.0 = MATLAB Toroidal Debug|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Toroidal Debug|x86.ActiveCfg = MATLAB Toroidal Debug|Win32
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Toroidal Debug|x86.Build.0 = MATLAB Toroidal Debug|Win32
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Toroidal Release|ARM.ActiveCfg = MATLAB Toroidal Release|Win32
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Toroidal Release|x64.ActiveCfg = MATLAB Toroidal Release|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Toroidal Release|x64.Build.0 = MATLAB Toroidal Release|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Toroidal Release|x86.ActiveCfg = MATLAB Toroidal Release|Win32
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.MATLAB Toroidal Release|x86.Build.0 = MATLAB Toroidal Release|Win32
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.Release|ARM.ActiveCfg = Release|Win32
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.Release|x64.ActiveCfg = Release|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.Release|x64.Build.0 = Release|x64
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.Release|x86.ActiveCfg = Release|Win32
+		{C5720CFC-01D6-43A0-A395-7AEE007589B8}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11EE7D27-FADF-4659-BA49-C65506C4D5F2}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

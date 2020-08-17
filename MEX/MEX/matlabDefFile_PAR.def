@@ -1,0 +1,2 @@
+LIBRARY VoronoiMEX_PAR.mexw64
+EXPORTS mexFunction

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Geometry">
+      <UniqueIdentifier>{6f7eaf4a-ab5b-4674-8366-9a75a5a1e2a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry">
+      <UniqueIdentifier>{626833ec-e816-48c6-8442-c5aa1e98a820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VectorOverrides">
+      <UniqueIdentifier>{dc87fdfa-93a6-4332-b2e9-fadf4b6d1662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RBT">
+      <UniqueIdentifier>{722c972b-0058-4814-a019-c070c1e28932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SEQ">
+      <UniqueIdentifier>{7b3d476f-7910-443e-9a63-5655ce3b5908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry\Intersections">
+      <UniqueIdentifier>{412417f6-bb93-4493-be4c-0df7f17c162f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry\CircleEvents">
+      <UniqueIdentifier>{89985096-e8e6-4fad-a760-0d41761415d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geometry\Intersections">
+      <UniqueIdentifier>{a9d57f57-1e95-4cce-b639-3d041e8c28ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geometry\CircleEvents">
+      <UniqueIdentifier>{4c5e3a88-1a58-4d9a-a76c-97d9f9f9ad94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SEQ">
+      <UniqueIdentifier>{bba78a43-4f7b-4459-8441-482a3ded040a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RBT">
+      <UniqueIdentifier>{679ed1cd-6e03-4c35-83a7-d013e0bd8482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SiteEvent_Obj">
+      <UniqueIdentifier>{e6b19128-bcf1-4736-aa79-05e95a3ebcc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SiteEvent_Obj">
+      <UniqueIdentifier>{e3241a5e-82f5-4c1e-a9a6-bf967bbf1aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HalfEdgeRecords">
+      <UniqueIdentifier>{5a803217-c082-4cdf-ab41-a20b9a09a8cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Records">
+      <UniqueIdentifier>{310ca64d-1ab6-4b90-b8cd-6ea639dd8d4b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataTypes\siteEvent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\basicMathAndGeometry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\interceptCalculators.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\vecOverrides.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Records\halfEdgeRecords.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\RBT.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="precisionChecks.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\circleCalculators.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\Node.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vorSettings.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\vectorPageAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue\SEQTree.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue\SEQTree.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\arrVecHybrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\buffered_vec.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Search\BFS.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tree\RBT_SiteEvent_Processing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\RBT_Maintain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataTypes\lineEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataTypes\vertexEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\interceptCalculators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\RBT_General.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\basicMathAndGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\RBT_CircleEvents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\circleCalculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Records\halfEdgeRecords.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VoronoiDiagram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue\NodeSEQ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue\NodeSEQ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="matlabDefFile_DBG.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="matlabDefFile_DBG_PAR.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="matlabDefFile_PAR.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="matlabDefFile.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
