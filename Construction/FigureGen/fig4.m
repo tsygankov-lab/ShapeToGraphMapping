@@ -83,10 +83,6 @@ end
 plotVoronoiSkeleton_SingleRegion_Bridges_And_Hubs(records, 1, [0.75,0,0], [0,1,0], {'LineWidth', 2}, {'MarkerSize', 8, 'MarkerEdgeColor',[0,0.75,0],'Marker', 'o'});
 plotVoronoiSkeleton_SingleRegion_Bridges_And_Hubs(records, 2, [0.75,0,0], [0,1,0], {'LineWidth', 2}, {'MarkerSize', 8, 'MarkerEdgeColor',[0,0.75,0],'Marker', 'o'});
 
-
-% print(H, 'Y:\tsygankov-lab\William Pilcher\Publication Figures\Figure 4\Bridges_Fig4A.png', '-dpng', '-r300');
-% delete(H);
-
 %% 2: Plot Subgraphs + root paths
 H = figure('position',[0,0,size(records.imageMask,2)*3,size(records.imageMask,1)*3],'Visible','on');
 imshow(records.imageMask,'InitialMagnification','fit');
@@ -100,7 +96,5 @@ for i = 1:records.numObjects
 
     plotSubGraph_RootPath(records,cycleInt,[0.5,0.5,0.5],{'LineWidth', 2}); % plot the root path
 end
-
-% print(H, 'Y:\tsygankov-lab\William Pilcher\Publication Figures\Figure 4\SubRegions_Fig4B.png', '-dpng', '-r300');
 
 end

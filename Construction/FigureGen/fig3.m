@@ -67,8 +67,6 @@ for i = records.numNonHoles+1:records.numObjects
    plotOutline_ByColor(records, i, 'b', {'LineWidth',4.0});
 end
 
-% print(H, 'Y:\tsygankov-lab\William Pilcher\Publication Figures\Figure 3\EXTvsINT_FIG3A.png', '-dpng', '-r300');
-% delete(H)
 %% Show image, color all in-graphs cyan, out-graphs red.
 H = figure('position',[0,0,size(records.imageMask,2)*2,size(records.imageMask,1)*2],'Visible','on');
 imshow(records.imageMask,'InitialMagnification','fit');

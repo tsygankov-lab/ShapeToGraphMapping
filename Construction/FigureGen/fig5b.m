@@ -86,8 +86,7 @@ allPathPos = records.verts.pos(allPathVerts,:);
 inRangeVerts = find(allPathPos(:,1) >= xmin & allPathPos(:,1) <= xmax & allPathPos(:,2) >= ymin & allPathPos(:,2) <= ymax);
 plotSubGraph_RootPath(records,cycleInt,'m',{'LineWidth', 2});
 
-% plotVoronoiSkeleton_SingleRegion(records,2,[0.75,0.75,0.75],{'LineWidth', 1});
-% end
+
 ancestorNodes = [];
 remainingList = cycleInt.boundaryToCycleNode;
 
@@ -159,14 +158,5 @@ legend([p1,p2], {'Full Path Length','Normalized Path Length'}, 'Location','north
 
 xlabel('Distance Along the Boundary');
 ylabel('Path Length to Boundary');
-% 
-% print(H, 'Y:\tsygankov-lab\William Pilcher\Publication Figures\Figure 5\Complex_Fig5B.png', '-dpng', '-r300');
-% print(G, 'Y:\tsygankov-lab\William Pilcher\Publication Figures\Figure 5\RADIUS_ON_PATH_Fig5C.png', '-dpng', '-r300');
-% print(I, 'Y:\tsygankov-lab\William Pilcher\Publication Figures\Figure 5\BOUNDARY_Fig5D.png', '-dpng', '-r300');
-% savefig(G, 'Y:\tsygankov-lab\William Pilcher\Publication Figures\Figure 5\RADIUS_ON_PATH_Fig5C.fig');
-% savefig(I, 'Y:\tsygankov-lab\William Pilcher\Publication Figures\Figure 5\BOUNDARY_Fig5C.fig');
-% plotVoronoiSkeleton_SingleRegion_Bridges_And_Hubs(records, 1, [0.75,0,0], [1,0.75,0], {'LineWidth', 2}, {'MarkerSize', 8, 'Marker', 'd'});
-% plotVoronoiSkeleton_SingleRegion_Bridges_And_Hubs(records, 2, [0.75,0,0], [1,0.75,0], {'LineWidth', 2}, {'MarkerSize', 8, 'Marker', 'd'});
-
 
 end

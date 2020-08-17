@@ -1,7 +1,6 @@
 close all;
 dataReload = true;
 % matFileName = 'LOOP_20585_D11_s3_cmock-MASK.mat';
-% output = 'Y:\tsygankov-lab\William Pilcher\Publication Figures\Figure 11';
 
 %% Compute the Voronoi diagram using a modified runVoronoi - Output the adjusted boundaries (for label images)
 if(dataReload)

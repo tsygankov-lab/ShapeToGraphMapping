@@ -31,8 +31,6 @@ H = figure('Visible','on');
 imshow(imageName);
 pause(0.1);
 pos = get(gcf, 'Position');
-% print(H, 'Y:\tsygankov-lab\William Pilcher\Publication Figures\Figure 1\IMAGE_Fig1A_Holes.png', '-dpng', '-r300');
-% delete(H);
 records = Voronoi_DT(vertexCoor, EL, 'ImageStruct',imageStruct);
 
 
@@ -59,5 +57,3 @@ plotRegion(records,0,'Color',[1,0.5,0]);
 xlim([0,size(records.imageMask,2)]);
 ylim([0,size(records.imageMask,1)]);
 
-% print(H, 'Y:\tsygankov-lab\William Pilcher\Publication Figures\Figure 1\GRAPHS_Fig1B_Holes.png', '-dpng', '-r300');
-% delete(H);
