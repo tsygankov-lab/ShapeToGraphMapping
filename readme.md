@@ -1,14 +1,6 @@
-**VoronoiDiagram is an implementation of fortune's algorithm utilizing circle
-sweeps rather than a traditional plane sweep. Unlike matlab's native
-implementation of voronoi diagram generation, this code can accept lines as
-inputs. This readme also covers the pre and post processing functions which
-prepare images for diagram construction, and extract features from the
-diagram.**
+ShapeToGraphMapping code for publication -
 
-**This program makes extensive use of the Matlab object oriented programming
-environment. For performance reasons, you should run this code on the most
-recent version of Matlab possible (2017a). Version 2017a has a 50% performance
-increase compared to 2016a.**
+This repository contains both the code for Voronoi graph construction and feature extraction, and code for boundary clustering as presented in the paper.
 
 \----------------------------------------------------------------
 
