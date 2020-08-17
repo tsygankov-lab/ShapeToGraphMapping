@@ -24,8 +24,6 @@ For more information about the records structure, see the section on records.
 [dataStruct] = processRecords(records)
 This process identifies all bridges, defined as vertices and half edges which exactly bisects two objects.  Requires the processed output array and creates a structure with a field .bridges which holds information about the vertices and edges on this bridge.
 
-See the detailed section for further explanation of the fields
-
 4) LOOP EXTRACTION
 [dataStruct] = extractCycles(records, dataStruct)
 This process uses information from the records_ARRAY from cleanRecords and dataStruct from bridge extraction to find all global cycles inside each object with a hole.  This adds fields .loop.object.* and .loop.hole.*, which each have fields .acyclic(n), .enclosed(n), and .enclosing(n), which provides the boundary profiles along with points on the cycle in each region. Information about a specific boundary can be extracted by calling getCycleInfo(dataStruct, color)
